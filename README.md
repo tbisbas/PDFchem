@@ -22,9 +22,9 @@ The notebook is self-explanatory. All calculations are performed for a log-norma
 PDFchem will then perform calculations and it will plot some default figures. If you wish to plot something more specific, you will need to edit the relevant parts using the variable of the species/emittor available. The list of available species can be found in the PDFchem.ipynb file.
 
 The available brightness temperatures consider the carbon cycle only:
-[CII] 158um
-[CI] (1-0), (2-1)
-CO (1-0) ... (10-9)
+- [CII] 158um
+- [CI] (1-0), (2-1)
+- CO (1-0) ... (10-9)
 
 For any question, please do not hesitate to contact me at tbisbas@gmail.com or tbisbas@zhejianglab.com
 
