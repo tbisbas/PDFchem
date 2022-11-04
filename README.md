@@ -1,4 +1,6 @@
-The PDFchem algorithm is a continuation of the work by Bisbas et al. (2019, MNRAS, 485, 3097). PDFchem is a combined Fortran 90/95 and Python algorithm. In principle, the Python script (written for Jupyter notebook) is a plotting tool in which PDFchem can also be executed.
+#PDFchem v2.0 (2022)
+
+This version is based on the paper by Bisbas et al. (2022, submitted). The PDFchem algorithm is a continuation of the work by Bisbas et al. (2019, MNRAS, 485, 3097). PDFchem is a combined Fortran 90/95 and Python algorithm. In principle, the Python script (written for Jupyter notebook) is a plotting tool in which PDFchem can also be executed.
 
 To run PDFchem you need first to download the PDR simulations [LINK PENDING]
 
@@ -15,20 +17,20 @@ The notebook is self-explanatory. All calculations are performed for a log-norma
 
 PDFchem will then perform calculations and it will plot some default figures. If you wish to plot something more specific, you will need to edit the relevant parts using the variable of the species/emittor available. Currently, the available abundances are (copied from the PDFchem.ipynb file):
 
-#Sequence of species
-# 1,H3+;  2,He+;   3,Mg;     4,H2+;   5,CH5+
-# 6,O2;   7,CH4+;  8,O+;     9,OH+;  10,Mg+
-#11,C+;  12,CH4;  13,H2O+;  14,H3O+; 15,CO+
-#21,CH;  22,CH3;  23,HCO+;  24,CH2+; 25,C
-#26,He;  27,CH+;  28,CO;    29,OH;   30,O
-#31,H2;  32,H;    33,e-; 
+Sequence of species
+ 1,H3+;  2,He+;   3,Mg;     4,H2+;   5,CH5+
+ 6,O2;   7,CH4+;  8,O+;     9,OH+;  10,Mg+
+11,C+;  12,CH4;  13,H2O+;  14,H3O+; 15,CO+
+21,CH;  22,CH3;  23,HCO+;  24,CH2+; 25,C
+26,He;  27,CH+;  28,CO;    29,OH;   30,O
+31,H2;  32,H;    33,e-; 
 
 The available brightness temperatures consider the carbon cycle only:
 [CII] 158um
 [CI] (1-0), (2-1)
 CO (1-0) ... (10-9)
 
-For any question, please do not hesitate to contact me at tbisbas@gmail.com
+For any question, please do not hesitate to contact me at tbisbas@gmail.com or tbisbas@zhejianglab.com
 
 Thomas Bisbas
 thomasbisbas.com
