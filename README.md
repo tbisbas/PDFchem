@@ -1,6 +1,6 @@
 # PDFchem v2.0 (2022)
 
-This version is based on the paper by Bisbas et al. (2022, submitted). The PDFchem algorithm is a continuation of the work by [Bisbas et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.3097B/abstract). PDFchem is a combined Fortran 90/95 and Python algorithm. In principle, the Python script (written for Jupyter notebook) is a plotting tool in which PDFchem can also be executed and it serves as a wrapper.
+This version is based on the paper by Bisbas et al. (2022, submitted). It is a continuation of the work by [Bisbas et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.3097B/abstract). PDFchem is a combined Fortran 90/95 and Python algorithm. In principle, the Python script (written for Jupyter notebook) is a plotting tool in which PDFchem can also be executed and it serves as a wrapper.
 
 To run PDFchem you need first to download the PDR simulations [LINK PENDING]
 
