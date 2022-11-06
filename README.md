@@ -28,4 +28,4 @@ The available brightness temperatures consider the carbon cycle only:
 
 For any question, please do not hesitate to contact me at tbisbas@gmail.com or tbisbas@zhejianglab.com
 
-[Thomas Bisbas](http://thomasbisbas.com)
+Thomas Bisbas ([thomasbisbas.com](http://thomasbisbas.com))
