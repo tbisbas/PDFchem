@@ -16,7 +16,9 @@ gfortran -o pdfchem_algorithm pdfchem_algorithm.f90
 ```
 
 Once the algorithm is compiled, all you need to do is to load the PDFchem.ipynb file using:
+```
 jupyter notebook PDFchem.ipynb
+```
 The notebook is self-explanatory. All calculations are performed for a log-normal distribution only. For any other distributions you will need to do the relevant edits and modifications in the pdfchem_algorithm.f90 file. In the notebook you can insert your own mean (Av) and the widht (sigma) of the Av-PDF you wish to consider. 
 
 PDFchem will then perform calculations and it will plot some default figures. If you wish to plot something more specific, you will need to edit the relevant parts using the variable of the species/emittor available. The list of available species can be found in the PDFchem.ipynb file.
