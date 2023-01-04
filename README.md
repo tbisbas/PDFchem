@@ -4,6 +4,8 @@ This version is based on the paper by [Bisbas et al. (2023)](https://ui.adsabs.h
 
 To run PDFchem you need first to download the PDR simulations from [this Zenodo link](https://zenodo.org/record/7310833).
 
+If you have used PDFchem for your research, please cite both the above papers and also [the code](https://github.com/tbisbas/PDFchem/blob/master/CITATION.md). Thank you!
+
 Once downloaded, you will need to untar it using the command
 ```
 tar xvzf simulations.tgz
