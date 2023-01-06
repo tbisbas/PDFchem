@@ -30,6 +30,11 @@ The available brightness temperatures consider the carbon cycle only:
 - [CI] (1-0), (2-1)
 - CO (1-0) ... (10-9)
 
+If you are interested to explore the results with interactive plots, you can use the following notebook (with thanks to Theodoros Topkaras for the contribution)
+```
+jupyter notebook PDFchem_plotly.ipynb
+```
+
 For any question, please do not hesitate to contact me at tbisbas@gmail.com or tbisbas@zhejianglab.com
 
 Thomas Bisbas ([thomasbisbas.com](http://thomasbisbas.com))
