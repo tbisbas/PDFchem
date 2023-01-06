@@ -2,6 +2,8 @@
 
 This version is based on the paper by [Bisbas et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.519..729B/abstract). It is a continuation of the work by [Bisbas et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.3097B/abstract). PDFchem is a combined Fortran 90/95 and Python algorithm. In principle, the Python script (written for Jupyter notebook) is a plotting tool in which PDFchem can also be executed and it serves as a wrapper.
 
+## Installing PDFchem
+
 To run PDFchem you need first to download the PDR simulations from [this Zenodo link](https://zenodo.org/record/7310833).
 
 If you have used PDFchem for your research, please cite both the above papers and also [the code](https://ui.adsabs.harvard.edu/abs/2022ascl.soft11014B/abstract). Thank you!
@@ -16,6 +18,8 @@ Next, you will need to compile the pdfchem_algorithm.f90 program. This will be d
 ```
 gfortran -o pdfchem_algorithm pdfchem_algorithm.f90
 ```
+
+## Running PDFchem
 
 Once the algorithm is compiled, all you need to do is to load the PDFchem.ipynb file using:
 ```
