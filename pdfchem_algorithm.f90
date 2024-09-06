@@ -125,7 +125,7 @@ do ipref = 1,1681 !No. PDR simulations
   !write output.dat
   write(10,'(100ES11.2)') fuv, cosmicrays, Z, & !parameters of PDR simulation
           Ntgas/N(0), N(1:33)/N(0), & !average column densities of species
-          Ntr(1), Ntr(2), Ntr(4), Ntr(8:17) !CII, CI(1-0), CI(2-1), CO(1-0...10-9)
+          Ntr(1)/Ntot, Ntr(2)/Ntot, Ntr(4)/Ntot, Ntr(8:17)/Ntot !CII, CI(1-0), CI(2-1), CO(1-0...10-9)
 
   deallocate(tgas); deallocate(tdust); deallocate(abun)
   deallocate(N); deallocate(x); deallocate(nh); deallocate(Tex)
